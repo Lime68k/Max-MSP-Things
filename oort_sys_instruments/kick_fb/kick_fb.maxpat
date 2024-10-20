@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1156.0, 929.0 ],
+		"rect" : [ 177.0, 288.0, 1156.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -215,8 +215,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 398.749045819044113, 334.0, 66.0, 22.0 ],
-					"text" : "gen~ kickg"
+					"patching_rect" : [ 398.749045819044113, 334.0, 112.0, 22.0 ],
+					"text" : "gen~ @gen kick_fb"
 				}
 
 			}
@@ -347,8 +347,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 281.749045819044113, 334.0, 66.0, 22.0 ],
-					"text" : "gen~ kickg"
+					"patching_rect" : [ 281.749045819044113, 334.0, 112.0, 22.0 ],
+					"text" : "gen~ @gen kick_fb"
 				}
 
 			}
@@ -396,7 +396,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 469.212246656417847, 321.0, 338.249045819044113, 321.0 ],
+					"midpoints" : [ 469.212246656417847, 321.0, 384.249045819044113, 321.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -436,7 +436,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 1 ],
-					"midpoints" : [ 549.787789106369019, 321.0, 455.249045819044113, 321.0 ],
+					"midpoints" : [ 549.787789106369019, 321.0, 501.249045819044113, 321.0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -561,9 +561,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "kickg.gendsp",
-				"bootpath" : "~/dev/Dev Max/Oort/instruments",
-				"patcherrelativepath" : "../dev/Dev Max/Oort/instruments",
+				"name" : "kick_fb.gendsp",
+				"bootpath" : "~/Documents/Max-MSP-Things/oort_sys_instruments/kick_fb",
+				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
